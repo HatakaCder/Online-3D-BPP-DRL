@@ -1,7 +1,9 @@
-numpy
-torch
-gym
-transforms3d
-tensorboardX
-protobuf
-scipy
+gym==0.26.2
+matplotlib==3.10.1
+pip==21.2.3
+scipy==1.15.2
+setuptools==57.4.0
+tensorboardX==2.6.2.2
+torchaudio==2.6.0+cu118
+torchvision==0.21.0+cu118
+transforms3d==0.4.2
