@@ -1,6 +1,5 @@
 gym==0.26.2
 matplotlib==3.10.1
-pip==21.2.3
 scipy==1.15.2
 setuptools==57.4.0
 tensorboardX==2.6.2.2
