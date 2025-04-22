@@ -15,7 +15,7 @@ This repository contains the implementation of the paper [Online 3D Bin Packing 
 
 ## Install
 To make this project work, there are two things you should do:
-* Optional: Install virtual environment in your computer, activate it and install the packages in it.
+* Optional: Install a virtual environment on your computer, activate it, and then install the packages in it.
 ```
 python -m venv venv
 ./venv/Scripts/activate
@@ -24,7 +24,8 @@ python -m venv venv
 ```
 pip install -r requirements.txt
 ```
-* After that, you should run fix_gym_lib.py to fix the gym library, which is a dependency of our project.
+* After that, you should run fix_gym_lib.py to fix the gym library, which is a dependency of our project (if you have installed a virtual environment).
+* Otherwise, copy passive_env_checker.py to the folder gym/utils in the Python packages folder.
 ```
 python fix_gym_lib.py
 ```
