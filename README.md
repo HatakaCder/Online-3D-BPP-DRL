@@ -18,10 +18,13 @@ To make this project work, there are two things you should do:
 * Optional: Install virtual environment in your computer, activate it and install the packages in it.
 ```
 python -m venv venv
-../venv/bin/activate
+./venv/Scripts/activate
+```
+* Install libraries:
+```
 pip install -r requirements.txt
 ```
-After that, you should run fix_gym_lib.py to fix the gym library, which is a dependency of our project.
+* After that, you should run fix_gym_lib.py to fix the gym library, which is a dependency of our project.
 ```
 python fix_gym_lib.py
 ```
