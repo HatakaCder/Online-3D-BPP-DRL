@@ -14,13 +14,18 @@ This repository contains the implementation of the paper [Online 3D Bin Packing 
 
 
 ## Install
-
-```
 To make this project work, there are two things you should do:
-* Install Python packages in 'requirements.py' (by 'pip install -r requirements.txt').
-* (This code works on Python 3.7)
+* Optional: Install virtual environment in your computer, activate it and install the packages in it.
 ```
-
+python -m venv venv
+../venv/bin/activate
+pip install -r requirements.txt
+```
+After that, you should run fix_gym_lib.py to fix the gym library, which is a dependency of our project.
+```
+python fix_gym_lib.py
+```
+(This code works on Python 3.10)
 ## Run
 We provide a unified interface in 'main.py'. There are examples of running our project.
 
